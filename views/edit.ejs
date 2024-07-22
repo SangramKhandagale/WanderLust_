@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+        *{
+margin: 0;
+padding: 0;
+
+       }
+       .nav{
+width: 100%;
+height: 9vh;
+display: flex;
+flex-direction: row;
+position: sticky;
+justify-content: space-between;
+top: 0;
+color: yellow;
+background-color: black;
+align-items: center;
+       }
+
+       .nav h2{
+           margin-left: 1rem;
+       }
+
+       h2 i{
+           margin: 5px;
+       }
+
+       .mn{
+           display: flex;
+           align-items: center;
+          margin-right: 40rem;
+       }
+
+       .mn a{
+           text-decoration: none;
+           margin-right: 2rem;
+           color: yellow;
+       }
+
+       .mn a:hover{
+           text-decoration: underline yellow;
+       }
+
+       .new{
+           background-color: black;
+           color: yellow;
+           border: none;
+       } 
+
+       footer{
+           width: 100%;
+           height: 18vh;
+           color: yellow;
+           background-color: black;
+           
+       }
+
+       footer a{
+           text-decoration: none;
+           color: yellow;
+       }
+
+       footer .pri{
+           margin-top: 20px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+font-size: 20px;
+       }
+       footer .links{
+           display: flex;
+
+           justify-content: center;
+
+       }
+
+       footer .links i{
+           margin-top: 20px;
+           margin-left: 20px;
+           font-size: large
+       }
+       footer .terms{
+           display: flex;
+           margin-top: 20px;
+           justify-content: center;
+font-size: 15px;
+       }
+
+       .terms a{
+           margin-left: 20px;
+       }
+
+.card .images{
+  width: 25vw;
+  height: 35vh;
+  border-radius: 30px;
+}
+
+.card .images:hover{
+   border-radius: 0px;
+   transition: .5s;
+}
+
+.card:hover{
+   background-color: #373737;
+}
+
+.row{
+   display: flex;
+   flex-wrap: wrap;
+   background-color: #121212;
+   text-decoration: none;
+}
+
+.card{
+   width: 30vw;
+   height: 50vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  margin-top: 20px;
+  margin-left: 27px;
+   background-color: #232323;
+   text-decoration: none;
+   border-radius: 20px;
+}
+.hmm{
+   width: 100%;
+   margin-top: 20px;
+   margin-left: 30px;
+color: white;
+}
+.new:hover{
+   text-decoration: underline yellow;
+}
+
+.cardbody{
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: start;
+   text-decoration: none;
+   width: 100%;
+   margin-top: 10px;
+   margin-left: 60px;
+}
+
+.ab1{
+   text-decoration: underline #232323;
+  margin-bottom: 5px;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.ab1:hover{
+   text-decoration: underline white;
+}
+
+.ab2{
+   text-decoration: underline #232323;
+   color: white;
+}
+.ab2:hover{
+   text-decoration: underline white;
+}
+
+.content{
+    width: 100%;
+    height: 73vh;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardo{
+background-color: #232323;
+width: 26vw;
+height: 56vh;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    border-radius: 40px;
+   border: 2px solid white;
+   opacity: 0.9;
+}
+
+.cardo:hover{
+    opacity: 0.7;
+}
+
+  /* #venom{ 
+    height: 4vh;
+    width: 20vw;
+    border-radius: 20px;
+     padding: 1px;
+    padding-left: 5px;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+} */
+
+#venom:hover{
+   border: 2px solid #121212;
+   
+}
+
+.title{
+    margin-top: 5px;
+}
+
+.des:hover{
+    border: 2px solid #121212;
+}
+#venom{
+    border-radius: 20px;
+     padding: 1px;
+    padding-left: 5px;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+    height: 4vh;
+    width: 20vw;
+}
+
+.des{
+    height: 9vh;
+    width: 20vw;
+    border-radius: 30px;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    padding-left: 15px;
+    font-family: "Wittgenstein", serif;
+    overflow: hidden;
+}
+
+/* .des{
+   
+    height: 9vh;
+    width: 20vw;
+    border-radius: 30px;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    padding-left: 15px;
+    font-family: "Wittgenstein", serif;
+    overflow: hidden;
+   
+}  */
+
+h2{
+    font-family: "Wittgenstein", serif;
+    color: yellow;
+}
+
+h2:hover{
+    text-decoration: underline yellow;
+}
+
+.edit{
+    margin-left: 10vw;
+    padding: 7px 30px;
+    background-color: yellow;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-family: "Wittgenstein", serif; */
+    /* font-family: "Playfair Display", serif; */
+/* font-family: 'Courier New', Courier, monospace; */
+}
+
+.edit:hover{
+    opacity: 0.8;
+}
+
+footer .links i:hover{
+            opacity: 0.3;
+        }
+
+        footer a:hover{
+            opacity: 0.7;
+            text-decoration: underline yellow;
+        }
+
+        footer .pri:hover{
+            opacity: 0.7;
+            text-decoration: underline yellow;
+        }
+   </style>
+</head>
+<body>
+    <div class="nav">
+        <h2><i class="fa-solid fa-compass"></i> WanderLust </h2>
+        <div class="mn">
+            <a href="/">Home</a>
+        <a href="/listings">All Listings</a>
+        <form action="/listings/new" method="get"><button class="new">Add new listing</button></form>
+    
+        </div>
+       </div>
+   <div class="content">
+    <h2>Edit your listing</h2>
+  
+    <form  method="post" action="/listings/<%= Listing._id %>?_method=PUT">
+        <div class="cardo">
+        <input type="text" name="listing[title]" value="<%= Listing.title %>" class="title" id="venom"><br>
+        <textarea name="listing[description]" class="des"  placeholder="Enter description"><%= Listing.description%></textarea><br>
+        <input type="text" name="listing[image]" class="img"  id="venom" placeholder="Enter image URL" value="<%= Listing.image %>" ><br>
+        <input type="text" name="listing[price]" class="price"  id="venom" placeholder="Enter price" value="<%= Listing.price %>"><br>
+        <input type="text" name="listing[location]" class="loc"  id="venom" placeholder="Enter location" value="<%= Listing.location %>"><br>
+        <input type="text" name="listing[country]" class="con"  id="venom" placeholder="Enter country" value="<%= Listing.country %>"><br>
+    </div> <a href="/listings/<%= Listing._id %>"><button class="edit">Edit</button></a>        
+    </form>
+           
+  
+   
+   </div>
+    <footer>
+        <div class="links">
+            <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="pri">
+            <p>WanderLust Private Limited</p>
+        </div>
+    <div class="terms">
+    <a href="">Privacy</a>
+    <a href="">Terms</a>
+    </div>
+    </footer> 
+</body>
+</html>

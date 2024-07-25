@@ -60,7 +60,7 @@ app.get("/demouser",async(req,res)=>{
 })
 
 app.get("/",(req,res)=>{
-    res.send("Working");
+   res.render("main.ejs");
 })
 
 app.use((req,res,next)=>{
@@ -95,7 +95,7 @@ app.get("/login",(req,res)=>{
 //     res.redirect("/listings");
 //  }))
 
- app.post("/login",passport.authenticate("local",{failureRedirect:"/login"}),async(req,res)=>{
+ app.post("/login",async(req,res)=>{
      res.redirect("/listings");
  })
 

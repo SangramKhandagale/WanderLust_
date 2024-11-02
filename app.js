@@ -26,7 +26,7 @@ main().then(()=>{
 }).catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/wanderlust');
+  await mongoose.connect('mongodb+srv://khandagalesangram26:6cECN7aXLJOpxvyo@cluster0.9snlg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 }
 
 const sessionOptions={
